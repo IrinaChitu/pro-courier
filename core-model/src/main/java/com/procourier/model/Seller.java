@@ -13,12 +13,8 @@ public class Seller {
         this.description = description;
     }
 
-    public Seller(String name) {
-        this(name, "", "");
-    }
-
     public Seller(String name, Address address) {
-        this.(name, address);
+        this(name, address, "");
     }
 
     public String getName() {
